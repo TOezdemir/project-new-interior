@@ -15,7 +15,7 @@ Die Website **New Interior** ist ein Webentwicklungsprojekt für Anfänger, das 
 - SCSS (CSS-Preprocessor)
 - JavaScript (optional für zukünftige Erweiterungen, Datenbanken, interaktives Kontaktformular)
 - Google Fonts
-- Responsive Design: Optimiert für 4K-Auflösung mit geplanten Medienabfragen für kleinere Auflösungen.
+- Responsive Design: Optimiert für 4K-Auflösung mit **geplanten Medienabfragen für kleinere Auflösungen**.
 - Modernes Layout: Enthält Abschnitte für neueste Arbeiten, Dienstleistungen, Blogbeiträge, Testimonials und ein Kontaktformular.
 
 
