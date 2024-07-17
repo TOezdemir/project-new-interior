@@ -72,6 +72,7 @@ header section a:hover {
   text-align: left;
 }
 .article1 section h1 {
+  margin-top: 30px;
   color: #3a4f52;
   font-family: "Alegreya Sans";
   font-size: 36px;
