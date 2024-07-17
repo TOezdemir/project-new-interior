@@ -1,0 +1,281 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@font-face {
+  font-family: "Alegreya-SC";
+  src: url("../font/Alegreya-SC/AlegreyaSC-Regular.ttf");
+}
+@font-face {
+  font-family: "Alegreya-Sans";
+  src: url("../font/Alegreya-Sans/AlegreyaSans-Regular.ttf");
+}
+@font-face {
+  font-family: "Nixie-One";
+  src: url("../font/Nixie-One/NixieOne-Regular.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+header {
+  background-image: url("../img/image1.png");
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 100vh;
+}
+header section {
+  display: flex;
+  justify-content: space-between;
+}
+header section a {
+  padding: 25px 30px;
+  text-decoration: none;
+  color: white;
+  font-family: "Alegreya-SC";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  color: white;
+  padding-top: 15%;
+}
+.hero h1 {
+  font-family: "Nixie One";
+  font-size: 56px;
+  font-weight: 100;
+}
+.hero p {
+  font-family: "Alegreya SC";
+  font-size: 22.4px;
+  font-style: normal;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.article1 {
+  height: 100vh;
+}
+.article1 section {
+  text-align: left;
+}
+.article1 section h1 {
+  color: #3a4f52;
+  font-family: "Alegreya Sans";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+}
+.article1 section p {
+  color: #6a6a6a;
+  font-family: "Helvetica Neue";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 5%;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  grid-gap: 25px;
+  width: 80%;
+  margin: 60px auto 0;
+}
+.container a img {
+  width: 650px;
+  height: 400px;
+}
+
+.services {
+  background-image: url("../img/image8.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 75vh;
+  padding: 76.344px 259.586px;
+  color: white;
+}
+
+.services2 {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.services2 h1,
+.services2 p {
+  text-align: center;
+}
+.services2 h1 {
+  font-family: Roboto;
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 40px;
+  padding: 30px 0 25px 0;
+}
+.services2 p {
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.black-box {
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 31vh;
+  margin: 0 auto;
+}
+.black-box p {
+  font-family: Roboto;
+  color: white;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 400;
+  margin: 25px 80px 150px;
+}
+.black-box button {
+  display: flex;
+  color: white;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  width: 260px;
+  height: 80px;
+  padding: 12px 16.8px 13px 17px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  background-color: transparent;
+}
+
+.grid-layout {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  grid-gap: 25px;
+}
+.grid-layout > div {
+  display: flex;
+  flex-direction: column;
+  height: 45vh;
+  width: 40vh;
+  font-size: 2em;
+}
+.grid-layout > div h2 {
+  font-family: Roboto;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+.grid-layout > div p {
+  font-family: Roboto;
+  font-size: 1.2rem;
+  line-height: 30px;
+  font-weight: 300;
+}
+
+.services-content > div {
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.from-blog > div {
+  margin-bottom: 60px;
+}
+
+.layout-style-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 255px 0 260px;
+}
+.layout-style-button button {
+  display: flex;
+  color: #3a4f52;
+  text-align: center;
+  font-family: "Helvetica Neue";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  width: 120px;
+  height: 46px;
+  padding: 12px 16.8px 13px 17px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #3a4f52;
+  background-color: white;
+}
+.layout-style-button section h1 {
+  font-family: Roboto;
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 40px;
+  padding: 30px 0 25px 0;
+}
+.layout-style-button section p {
+  font-family: Roboto;
+  color: #6a6a6a;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.blog {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0 185px 0 160px;
+  justify-items: center;
+  height: 80vh;
+}
+.blog div:nth-of-type(1) a img {
+  width: 540px;
+  height: auto;
+}
+.blog div:nth-of-type(2) a img {
+  width: 560px;
+  height: auto;
+}
+.blog div:nth-of-type(3) a img {
+  width: 545px;
+  height: auto;
+}
+
+main article:nth-of-type(4) {
+  background-image: url("../img/image12.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 50vh;
+  padding: 120px 230px;
+}
+
+.testimonials div img {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  object-fit: cover;
+}
+
+/*# sourceMappingURL=style.css.map */
