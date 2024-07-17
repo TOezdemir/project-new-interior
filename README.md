@@ -1,13 +1,78 @@
-Project: New Interior
-Hi and welcome to the "New Interior" project! 
-This is a beginner-level web development project optimized for a 4K monitor resolution. The project showcases a modern and stylish web page layout with several sections including latest works, services, blog posts, testimonials, and a contact form. The styling is done using SCSS.
+# Project: New Interior
 
-Features
-Responsive Design: Optimized for 4K resolution with planned media queries for smaller resolutions.
-SCSS Styling: Utilizes SCSS for clean and maintainable CSS.
-Modern Layout: Includes sections for latest works, services, blog posts, testimonials, and contact form.
+## Inhaltsverzeichnis
+- [Über das Projekt](#über-das-projekt)
+- [Verwendete Technologien](#verwendete-technologien)
+- [Installation](#installation)
+- [Benutzung](#benutzung)
+- [Projektstruktur](#projektstruktur)
 
-Technologies Used:
-HTML5
-SCSS
-JavaScript (optional for future enhancements)
+## Über das Projekt
+Die Website **New Interior** ist ein Webentwicklungsprojekt für Anfänger, das für eine 4K-Monitorauflösung optimiert ist die, die neuesten Innenarchitekturarbeiten und Dienstleistungen präsentiert. Das Projekt beinhaltet verschiedene Abschnitte wie Portfolio, Dienstleistungen, Blogbeiträge und Testimonials von zufriedenen Kunden.
+
+## Verwendete Technologien und Merkmale
+- HTML5
+- SCSS (CSS-Preprocessor)
+- JavaScript (optional für zukünftige Erweiterungen, Datenbanken, interaktives Kontaktformular)
+- Google Fonts
+- Responsive Design: Optimiert für 4K-Auflösung mit **geplanten Medienabfragen für kleinere Auflösungen**.
+- Modernes Layout: Enthält Abschnitte für neueste Arbeiten, Dienstleistungen, Blogbeiträge, Testimonials und ein Kontaktformular.
+
+
+## Installation
+Um das Projekt lokal auszuführen, folge diesen Schritten:
+
+1. Repository klonen:
+    ```bash
+    git clone https://github.com/dein-benutzername/new-interior.git
+    ```
+2. Navigiere in das Projektverzeichnis:
+    ```bash
+    cd new-interior
+    ```
+3. Öffne die `index.html` Datei in deinem bevorzugten Webbrowser.
+
+## Benutzung
+Öffne die `index.html` Datei in deinem bevorzugten Webbrowser. Die Webseite zeigt verschiedene Abschnitte:
+- Header mit Navigationsmenü und Hero-Image
+- Unsere neuesten Arbeiten
+- Dienstleistungen
+- Blogbeiträge
+- Kundenbewertungen
+- Kontaktformular
+
+## Projektstruktur
+```plaintext
+new-interior/
+├── assets/
+│   ├── css/
+│   │   └── style.css
+│   ├── font/
+│   │   ├── Alegreya-SC/
+│   │   ├── Alegreya-Sans/
+│   │   └── Nixie-One/
+│   ├── img/
+│   │   ├── icons/
+│   │   │   ├── burger.svg
+│   │   │   ├── flyer.svg
+│   │   │   ├── heart.svg
+│   │   │   └── photo.svg
+│   │   ├── head1.png
+│   │   ├── head2.png
+│   │   ├── head3.png
+│   │   ├── image1.png
+│   │   ├── image2.png
+│   │   ├── image3.png
+│   │   ├── image4.png
+│   │   ├── image5.png
+│   │   ├── image6.png
+│   │   ├── image7.png
+│   │   ├── image8.png
+│   │   ├── image9.png
+│   │   ├── image10.png
+│   │   ├── image11.png
+│   │   └── image12.png
+│   └── js/
+│       └── script.js
+├── index.html
+└── README.md
