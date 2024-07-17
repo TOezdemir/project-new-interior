@@ -41,6 +41,9 @@ header {
       font-style: normal;
       font-weight: 500;
     }
+    a:hover {
+      text-decoration: underline;
+    }
   }
 }
 
@@ -83,6 +86,11 @@ header {
       font-size: 36px;
       font-style: normal;
       font-weight: 500;
+      h1:hover {
+        cursor: pointer;
+        text-decoration: underline;
+        text-underline-offset: 5px;
+      }
     }
 
     p {
@@ -101,11 +109,12 @@ header {
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
   grid-gap: 25px;
-
   width: 80%;
   margin: 60px auto 0;
 
   a {
+    // overflow: hidden;
+    // transition: 0.3s all ease-in;
     img {
       width: 650px;
       height: 400px;
@@ -115,6 +124,9 @@ header {
       object-fit: cover;
     }
   }
+  // a:hover {
+  //   transform: scale(1.5);
+  // }
 }
 
 .services {
@@ -186,8 +198,8 @@ header {
     transition-duration: 0.4s;
   }
   button:hover {
-    background-color: #3a4f52;
-    color: white;
+    background-color: whitesmoke;
+    color: black;
   }
 }
 
@@ -208,17 +220,26 @@ header {
       font-family: Roboto;
       font-weight: 400;
       margin-bottom: 25px;
+      font-size: 1.3em;
     }
-
+    i {
+      font-size: 18px;
+      color: #6a6a6a;
+      margin-bottom: 20px;
+    }
     p {
       font-family: Roboto;
       font-size: 1.2rem;
       line-height: 30px;
       font-weight: 300;
+      margin-bottom: 40px;
     }
 
     a {
-      font-size: 5;
+      font-size: 25px;
+      text-decoration: none;
+      color: #4da7ca;
+      font-weight: 300;
     }
   }
 }
@@ -335,6 +356,7 @@ main article:nth-of-type(4) {
     flex-wrap: wrap;
     align-content: center;
     align-items: center;
+    margin-bottom: 150px;
     h1 {
       font-family: "Alegreya-Sans";
       font-size: 50px;
@@ -445,6 +467,7 @@ textarea {
   border-radius: 5px;
   margin-bottom: 15px;
   padding: 0 10px;
+  font-size: 17px;
 
   &::placeholder {
     color: rgba(255, 255, 255, 0.75);
