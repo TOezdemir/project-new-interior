@@ -95,10 +95,15 @@ header section a {
 .container a img {
   width: 650px;
   height: 400px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  object-fit: cover;
 }
 
 .services {
   background-image: url("../img/image8.png");
+  background-attachment: fixed;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -161,6 +166,11 @@ header section a {
   align-items: center;
   border: 1px solid white;
   background-color: transparent;
+  transition-duration: 0.4s;
+}
+.black-box button:hover {
+  background-color: #3a4f52;
+  color: white;
 }
 
 .grid-layout {
@@ -221,6 +231,11 @@ header section a {
   align-items: center;
   border: 1px solid #3a4f52;
   background-color: white;
+  transition-duration: 0.4s;
+}
+.layout-style-button button:hover {
+  background-color: #3a4f52;
+  color: white;
 }
 .layout-style-button section h1 {
   font-family: Roboto;
@@ -260,12 +275,67 @@ header section a {
 
 main article:nth-of-type(4) {
   background-image: url("../img/image12.png");
+  background-attachment: fixed;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
   height: 50vh;
   padding: 120px 230px;
+}
+
+.testimonials-head {
+  padding: 120px 230px;
+}
+.testimonials-head .testimonials-head2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  margin-bottom: 150px;
+}
+.testimonials-head .testimonials-head2 h1 {
+  font-family: "Alegreya-Sans";
+  font-size: 50px;
+  color: #3a4f52;
+}
+.testimonials-head .testimonials-head2 p {
+  font-family: Roboto;
+  color: #6a6a6a;
+  font-size: 20px;
+}
+
+.testimonials {
+  display: flex;
+  margin-top: 60px;
+}
+
+.testimonials div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.testimonials div p:nth-of-type(1) {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 35px;
+  font-family: Roboto;
+  color: #6a6a6a;
+  font-size: 20px;
+}
+.testimonials div p:nth-of-type(2) {
+  font-family: Roboto;
+  color: #6a6a6a;
+  font-size: 20px;
+}
+.testimonials div p:nth-of-type(3) {
+  font-family: Roboto;
+  color: #6a6a6a;
+  font-size: 20px;
 }
 
 .testimonials div img {
@@ -276,6 +346,89 @@ main article:nth-of-type(4) {
   background-position: center center;
   background-size: cover;
   object-fit: cover;
+}
+
+main article:nth-of-type(6) {
+  background-image: url("../img/image13.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 60vh;
+  padding: 120px 230px;
+}
+
+.black-box2 {
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 45vh;
+  margin: 0 auto;
+}
+.black-box2 section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.black-box2 section h1 {
+  font-family: "Alegreya-Sans";
+  font-size: 55px;
+  color: white;
+}
+.black-box2 section p {
+  font-family: Roboto;
+  color: white;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+textarea {
+  width: 550px;
+  height: 40px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  padding: 0 10px;
+}
+input::placeholder,
+textarea::placeholder {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+input:last-of-type {
+  transition-duration: 0.4s;
+}
+
+input:last-of-type:hover {
+  background-color: whitesmoke;
+  color: black;
+}
+
+textarea {
+  resize: none;
+  height: auto;
+}
+
+footer {
+  background-color: #2b3e51;
+  height: 15vh;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 80px;
+  padding-left: 230px;
+  font-size: 20px;
+  font-weight: 300;
 }
 
 /*# sourceMappingURL=style.css.map */
